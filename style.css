@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color:rgb(40, 15, 15);
+    font-size: 1.6em;
+}
+
+header, footer{
+    min-height: 25vh;
+    background-color: rgb(78, 25, 25);
+    color: white;
+  
+}
+
+h1{
+    font-size: 10vw;
+    text-align: center;
+    padding: .4em;
+}
+
+main{
+    width: 80%;
+    min-height: 50vh;
+    background-color: white; 
+    margin: 0 auto;
+    padding: 1.2em;
+    font-size: .8em;
+}
+
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flex > section{
+    flex: 300px;
+    padding: 1.2em;
+}
+
+@media screen and (max-width: 500px){
+    header{
+       min-height: 10vh;
+
+
+    }
+
+    h1{
+        padding: .1em;
+    }
+}
